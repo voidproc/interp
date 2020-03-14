@@ -8,7 +8,7 @@ namespace app
 	// 動く点P
 	struct P
 	{
-		using Vec2Interp = Interpolation::Interp<Duration, Vec2>;
+		using Vec2Interp = interp::Interp<Duration, Vec2>;
 		Vec2Interp interp;
 
 		Stopwatch time;
@@ -57,7 +57,7 @@ void Main()
 	};
 
 	// いろんなイージングでやってみる
-	using EasingFunction = app::Interpolation::EasingFunction;
+	using EasingFunction = interp::EasingFunction;
 	Array<EasingFunction> ef{
 		EaseInOutLinear,
 		EaseInOutSine,

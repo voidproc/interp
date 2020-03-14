@@ -2,7 +2,7 @@
 
 #define RETURN_EASING_FUNC(x) if(name==#x){return x;}
 
-namespace app::Interpolation
+namespace interp
 {
 	EasingFunction easingFunction(std::string_view name)
 	{

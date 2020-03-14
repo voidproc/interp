@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-namespace app::Interpolation
+namespace interp
 {
 	using EasingFunction = double(*)(double);
 
