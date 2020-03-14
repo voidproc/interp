@@ -135,6 +135,7 @@
     <ResourceCompile Include="App\Resource.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\.gitignore" />
     <None Include="App\engine\emoji\noto7_dictionary.dat" />
     <None Include="App\engine\font\fontawesome\fontawesome-brands.otf.zstdcmp" />
     <None Include="App\engine\font\fontawesome\fontawesome-solid.otf.zstdcmp" />

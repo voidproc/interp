@@ -315,6 +315,7 @@
     <None Include="App\example\font\LogoTypeGothic\LICENSE_E">
       <Filter>Resource Files\example\font\LogoTypeGothic</Filter>
     </None>
+    <None Include="..\.gitignore" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="App\engine\font\fontawesome\LICENSE.txt">
