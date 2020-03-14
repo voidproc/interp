@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "interp", "interp\interp.vcxproj", "{AFC6B6C2-2E7A-4D96-8DFD-86E277911E76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFC6B6C2-2E7A-4D96-8DFD-86E277911E76}.Debug|x64.ActiveCfg = Debug|x64
+		{AFC6B6C2-2E7A-4D96-8DFD-86E277911E76}.Debug|x64.Build.0 = Debug|x64
+		{AFC6B6C2-2E7A-4D96-8DFD-86E277911E76}.Release|x64.ActiveCfg = Release|x64
+		{AFC6B6C2-2E7A-4D96-8DFD-86E277911E76}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {205F7D7F-99E6-400D-9C34-0C41037766A7}
+	EndGlobalSection
+EndGlobal
